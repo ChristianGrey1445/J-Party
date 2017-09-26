@@ -1,8 +1,16 @@
+
 #cabecera {
-  color: #FFFFFF;
-  border: 3px solid #2F4F4F;
-  padding: 80px 15px;
+ background-image: url(imagenes/fondo.png);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #464646;
+ color: #FFFFFF;
+ border: 3px solid #2F4F4F;
+ padding: 80px 15px;
 }
+
 #cabecera li {
   display: inline-block;
   list-style: none;
@@ -231,7 +239,6 @@ article p:hover{
       display: inline-block;
       list-style: none;
       }
-
 
 
 
