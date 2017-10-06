@@ -1,0 +1,123 @@
+#cabecera {
+ background-image: url(imagenes/fondo.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #464646;
+ color: #FFFFFF;
+ border: 3px solid #2F4F4F;
+ padding: 80px 15px;
+}
+
+#cabecera li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  font: bold 14px verdana, sans-serif;
+  text-shadow: rgba(0,0,0,0.8) 3px 3px 5px;
+  /*color: hsla(120, 100%, 50%, 0.5);*/
+  }
+
+.titulo {
+  font: bold 80px verdana, sans-serif;
+  text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+}
+
+#subtitulo {
+  font: bold 30px verdana, sans-serif;
+  clear: both;
+  text-align: center;
+}
+
+#infopage2 {
+    text-align: center;
+    padding: 2px 10px;
+    background: -webkit-linear-gradient(top, #F0E68C, #E0FFFF);
+    background: -moz-linear-gradient(top,  #F0E68C, 50%, #E0FFFF 90%);
+    }
+  #infopage2 li {
+    margin: 15px;
+    display: inline-block;
+    list-style: none;
+    font: bold 50px verdana, sans-serif;
+    }
+ 
+#infopage2 { 
+   background: #4B088A; 
+   padding: 5px 15px; 
+   color: #FFFFFF; 
+   } 
+ #infopage2 li { 
+   display: inline-block; 
+   list-style: none; 
+   padding: 28px; 
+   font: bold 20px verdana, sans-serif; 
+   background: -webkit-linear-gradient(top, #006400, #00FF00); 
+   background: -moz-linear-gradient(top,  #D3D3D3, 50%, #0000FF 90%); 
+   } 
+ 
+#principalpage1:hover{ 
+    color: #FFFFFF; 
+    text-shadow: rgba(0,0,0,0.8) 3px 3px 5px; 
+    padding: 1px; 
+  } 
+  #principalpage2:hover{ 
+    color: #FFFFFF; 
+    text-shadow: rgba(0,0,0,0.8) 3px 3px 5px; 
+    padding: 1px; 
+  } 
+
+#principalpage1 {
+    text-align: right;
+    color: #0000FF;
+  }
+
+
+#principalpage2 {
+    text-align: right;
+    color: #0000FF;
+  }
+
+
+body{
+  text-align: center;
+  }
+  header, section, footer, aside, nav, article, figure, figcaption,                                                              
+
+hgroup{
+    display : block;
+    }
+  #reproductor{
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px;
+  background: #8B0000;
+  border: 1px solid #000000;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  }
+  nav{
+    margin: 5px 0px;
+  }
+  #botones{
+    float: left;
+    width: 100px;
+    height: 20px;
+    }
+  #barra{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
+    }
+  #progreso{
+    position: absolute;
+    width: 0px;  height: 16px;
+    background: rgba(0,0,150,.2);
+  }
