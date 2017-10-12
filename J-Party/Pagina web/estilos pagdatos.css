@@ -1,5 +1,10 @@
-#datos {
-inline block;
-vertical-align: center;
+body {
+  background: #98FB98; }
 
-}
+#datos {
+  background: #F3F3F3; 
+  float:50%; }
+
+#datos {  
+  inline block; 
+  vertical-align: center;  } 
