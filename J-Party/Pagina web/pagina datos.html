@@ -1,25 +1,99 @@
 <!DOCTYPE html>
-<html> 
-<head> 
-   	<title>Registro</title> 
-   	<script src="canvas.js"></script>
-   	<link rel="stylesheet" href="estilos pagdatos.css" />
-   <script>
-      alert("No dejes datos en blanco");
-   </script>
-            
-</head> 
+<html lang="es">   
+<head>    
+	<meta charset="utf-8">   
+	<meta name="author" contenido="Cristian Martínez Colín">
+	<title>Nueva cuenta</title>
+	<script src="canvas.js"></script>
+   	<script>
+      		alert("No dejes datos en blanco");
+   	</script>
+	<style type="text/css">
+		*{ 
+			margin: 0px;
+			padding: 0px; }
+		body { 
+			background-color: #00F79C;
+			color: black;
+			margin-left: 15%;
+			margin-right: 10%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			}
+		.contenidoT {
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px; 
+            background-color: #000; }
+		header{
+			background-color: #05A469;
+			height: 100px; }
+		header p{ 
+			font-family: vivaldi;
+			font-size: 80px;
+			line-height: 100px;
+			text-align: center; }
+		nav {
+			background-color: #05A469;
+			height: 50px;
+			line-height: 50px;
+			text-align: right;
+			font-size: 20px; }
+		#contenido {
+			background-color: #7EBD13;
+			width: 59%;
+			height: 500px;
+			margin-top: 5px;
+			margin-right: 10px; 
+			margin-bottom: 10px; 
+			line-height: 500px;
+			float: left;
+			font-size: 10px;
+			text-align: center; }
+		aside { 
+			background-color: #BD139E;
+			width: 39.9%;
+			height: 500px;
+			margin-top: 5px;
+			line-height: 500px;
+			float: right;
+			text-align: right;
+			 }
+		aside blockquote {
+			font-size: 25px;
+			width: 100%; }
+		footer { 
+			background-color: #BD1358
+			line-height: auto;
+			height: auto;
+			clear: both;
+			color: yellow;
+			text-align: center; }
 
+	</style>
+</head>
 <body>
-<nav id="datos">
-<ul>
-<li><section id="cajalienzo">
+	<div class="contenidoT">
+		<header>
+			<p>Bienvenido</p>
+		</header>
+		<nav>
+			<ul>   
+				<il>Menu |</il>
+				<il>Preguntas frecuentes |</il>
+				<il>Reportar problemas</il>
+			</ul>  
+		</nav>
+		<section id="contenido">
+			<nav id="datos">
+
+	<!--<section id="cajalienzo">
      <canvas id="lienzo" width="500" height="300">
        Su navegador no soporta el elemento canvas
      </canvas>
-   </section></li>
+   </section>-->
 
-<li><section>
+<section>
 <p>Nombre</p>
 <input type="text" name="nombre" id="nombre">
 <p>Apellido paterno</p>
@@ -52,12 +126,20 @@
   </button>
 </form>
 <br />
-<form method="get" action="file:///C:/Users/Programaci%C3%B3n/Desktop/J-Party/Pagina%20web/Pagina%20registro.html">
+<form method="get" action="file:///C:/Users/Programaci%C3%B3n/Desktop/J-Party/Pagina%20web/Pagina%20principal.html">
   <button type="submit">
     Iniciar sesión
   </button>
 </form>
-
-</body> 
-
+		</section>
+		<aside>
+			<blockquote>
+				
+			</blockquote>
+		</aside>
+		<footer>
+			<small>direccion, telefonos</small>
+		</footer>
+	</div>
+</body>
 </html>
